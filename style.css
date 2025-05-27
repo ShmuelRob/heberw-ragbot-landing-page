@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background: #f0f1f2;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+header {
+  background-color: #e9ecef;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid #dee2e6;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+header .container {
+  text-align: left;
+}
+.logo {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #0070b5;
+  line-height: 1;
+  vertical-align: middle;
+}
+.hero {
+  margin: 0 auto;
+}
+.contact-section {
+  margin-top: 50px;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+body,
+button,
+select,
+textarea {
+  font-family: "Noto Sans Hebrew";
+}
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+select {
+  background: #fbfbfc;
+  border: 1px solid #f8f8f9;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 15px;
+  width: 100%;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+  overflow: auto;
+}
+textarea:focus {
+  border-radius: 15px 15px 15px 5px;
+}
+h1 {
+  font-family: Rubik;
+  margin: 40px auto 0;
+  text-align: center;
+}
+textarea::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+  opacity: 1;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Enhanced styles for text input fields */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  width: 100%;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: rgba(81, 203, 238, 1);
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+
+
+label {
+    font-size: 15px;
+    margin-top: 17px;
+    margin-bottom: 5px;
+}
+
+.btn {
+    background: linear-gradient(135deg, #0070b5, #005a93);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 112, 181, 0.3);
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #005a93, #004570);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 112, 181, 0.4);
+}
+
+.btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 112, 181, 0.3);
+}
+
+.logo-img {
+    height: 80px;
+    vertical-align: middle;
+}
+
+.contact-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
